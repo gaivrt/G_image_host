@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3548pt" height="316pt" viewBox="0.00 0.00 3548.48 315.59">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 311.59)">
+<title>MissionariesAndCannibals_StateSpace</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-311.59 3544.48,-311.59 3544.48,4 -4,4"/>
+<!-- S_331 -->
+<g id="node1" class="node">
+<title>S_331</title>
+<ellipse fill="none" stroke="blue" cx="95.95" cy="-144.3" rx="91.95" ry="41.3"/>
+<ellipse fill="none" stroke="blue" cx="95.95" cy="-144.3" rx="95.95" ry="45.3"/>
+<text text-anchor="middle" x="95.95" y="-156.9" font-family="Times,serif" font-size="14.00">(3,3,1)</text>
+<text text-anchor="middle" x="95.95" y="-140.1" font-family="Times,serif" font-size="14.00">L:3M,3C | R:0M,0C</text>
+<text text-anchor="middle" x="95.95" y="-123.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_310 -->
+<g id="node2" class="node">
+<title>S_310</title>
+<ellipse fill="none" stroke="black" cx="389.97" cy="-266.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="389.97" y="-278.9" font-family="Times,serif" font-size="14.00">(3,1,0)</text>
+<text text-anchor="middle" x="389.97" y="-262.1" font-family="Times,serif" font-size="14.00">L:3M,1C | R:0M,2C</text>
+<text text-anchor="middle" x="389.97" y="-245.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_331&#45;&gt;S_310 -->
+<g id="edge1" class="edge">
+<title>S_331-&gt;S_310</title>
+<path fill="none" stroke="black" d="M168.76,-174.3C212.07,-192.39 267.24,-215.44 311.52,-233.94"/>
+<polygon fill="black" stroke="black" points="309.98,-237.09 320.55,-237.71 312.68,-230.63 309.98,-237.09"/>
+<text text-anchor="middle" x="244.96" y="-224.01" font-family="Times,serif" font-size="14.00">2C L-&gt;R (1)</text>
+</g>
+<!-- S_220 -->
+<g id="node13" class="node">
+<title>S_220</title>
+<ellipse fill="none" stroke="black" cx="389.97" cy="-165.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="389.97" y="-177.9" font-family="Times,serif" font-size="14.00">(2,2,0)</text>
+<text text-anchor="middle" x="389.97" y="-161.1" font-family="Times,serif" font-size="14.00">L:2M,2C | R:1M,1C</text>
+<text text-anchor="middle" x="389.97" y="-144.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_331&#45;&gt;S_220 -->
+<g id="edge12" class="edge">
+<title>S_331-&gt;S_220</title>
+<path fill="none" stroke="black" d="M186.52,-159.75C194.41,-160.75 202.29,-161.63 209.91,-162.3 234.62,-164.46 261.32,-165.57 286.37,-166.07"/>
+<polygon fill="black" stroke="black" points="286.18,-169.56 296.24,-166.23 286.3,-162.56 286.18,-169.56"/>
+<text text-anchor="middle" x="244.96" y="-170.09" font-family="Times,serif" font-size="14.00">1M1C L-&gt;R</text>
+</g>
+<!-- S_320 -->
+<g id="node14" class="node">
+<title>S_320</title>
+<ellipse fill="none" stroke="black" cx="389.97" cy="-64.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="389.97" y="-76.9" font-family="Times,serif" font-size="14.00">(3,2,0)</text>
+<text text-anchor="middle" x="389.97" y="-60.1" font-family="Times,serif" font-size="14.00">L:3M,2C | R:0M,1C</text>
+<text text-anchor="middle" x="389.97" y="-43.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_331&#45;&gt;S_320 -->
+<g id="edge13" class="edge">
+<title>S_331-&gt;S_320</title>
+<path fill="none" stroke="black" d="M179.47,-121.69C217.08,-111.39 261.68,-99.17 300.04,-88.66"/>
+<polygon fill="black" stroke="black" points="300.51,-92.16 309.23,-86.14 298.66,-85.41 300.51,-92.16"/>
+<text text-anchor="middle" x="244.96" y="-115.66" font-family="Times,serif" font-size="14.00">1C L-&gt;R</text>
+</g>
+<!-- S_321 -->
+<g id="node3" class="node">
+<title>S_321</title>
+<ellipse fill="none" stroke="black" cx="679.99" cy="-243.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="679.99" y="-255.9" font-family="Times,serif" font-size="14.00">(3,2,1)</text>
+<text text-anchor="middle" x="679.99" y="-239.1" font-family="Times,serif" font-size="14.00">L:3M,2C | R:0M,1C</text>
+<text text-anchor="middle" x="679.99" y="-222.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_310&#45;&gt;S_321 -->
+<g id="edge2" class="edge">
+<title>S_310-&gt;S_321</title>
+<path fill="none" stroke="black" d="M480.92,-259.11C511.64,-256.66 546.21,-253.9 577.76,-251.38"/>
+<polygon fill="black" stroke="black" points="578.04,-254.87 587.73,-250.58 577.48,-247.89 578.04,-254.87"/>
+<text text-anchor="middle" x="534.98" y="-261.73" font-family="Times,serif" font-size="14.00">1C R-&gt;L (2)</text>
+</g>
+<!-- S_300 -->
+<g id="node4" class="node">
+<title>S_300</title>
+<ellipse fill="none" stroke="black" cx="970.01" cy="-243.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="970.01" y="-255.9" font-family="Times,serif" font-size="14.00">(3,0,0)</text>
+<text text-anchor="middle" x="970.01" y="-239.1" font-family="Times,serif" font-size="14.00">L:3M,0C | R:0M,3C</text>
+<text text-anchor="middle" x="970.01" y="-222.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_321&#45;&gt;S_300 -->
+<g id="edge3" class="edge">
+<title>S_321-&gt;S_300</title>
+<path fill="none" stroke="black" d="M772.12,-243.3C802.21,-243.3 835.88,-243.3 866.75,-243.3"/>
+<polygon fill="black" stroke="black" points="866.47,-246.8 876.47,-243.3 866.47,-239.8 866.47,-246.8"/>
+<text text-anchor="middle" x="825" y="-247.5" font-family="Times,serif" font-size="14.00">2C L-&gt;R (3)</text>
+</g>
+<!-- S_311 -->
+<g id="node11" class="node">
+<title>S_311</title>
+<ellipse fill="none" stroke="black" cx="1260.03" cy="-112.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="1260.03" y="-124.9" font-family="Times,serif" font-size="14.00">(3,1,1)</text>
+<text text-anchor="middle" x="1260.03" y="-108.1" font-family="Times,serif" font-size="14.00">L:3M,1C | R:0M,2C</text>
+<text text-anchor="middle" x="1260.03" y="-91.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_300&#45;&gt;S_311 -->
+<g id="edge4" class="edge">
+<title>S_300-&gt;S_311</title>
+<path fill="none" stroke="black" d="M1035.65,-213.9C1079.75,-193.84 1138.29,-167.21 1184.38,-146.25"/>
+<polygon fill="black" stroke="black" points="1185.58,-149.55 1193.23,-142.22 1182.68,-143.18 1185.58,-149.55"/>
+<text text-anchor="middle" x="1115.02" y="-197.58" font-family="Times,serif" font-size="14.00">1C R-&gt;L (4)</text>
+</g>
+<!-- S_110 -->
+<g id="node5" class="node">
+<title>S_110</title>
+<ellipse fill="none" stroke="black" cx="1553.16" cy="-112.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="1553.16" y="-124.9" font-family="Times,serif" font-size="14.00">(1,1,0)</text>
+<text text-anchor="middle" x="1553.16" y="-108.1" font-family="Times,serif" font-size="14.00">L:1M,1C | R:2M,2C</text>
+<text text-anchor="middle" x="1553.16" y="-91.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_221 -->
+<g id="node6" class="node">
+<title>S_221</title>
+<ellipse fill="none" stroke="black" cx="1862.63" cy="-45.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="1862.63" y="-57.9" font-family="Times,serif" font-size="14.00">(2,2,1)</text>
+<text text-anchor="middle" x="1862.63" y="-41.1" font-family="Times,serif" font-size="14.00">L:2M,2C | R:1M,1C</text>
+<text text-anchor="middle" x="1862.63" y="-24.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_110&#45;&gt;S_221 -->
+<g id="edge6" class="edge">
+<title>S_110-&gt;S_221</title>
+<path fill="none" stroke="black" d="M1625.43,-86.24C1637.89,-82.26 1650.8,-78.49 1663.12,-75.5 1694.93,-67.76 1730.13,-61.64 1761.93,-56.99"/>
+<polygon fill="black" stroke="black" points="1762.13,-60.49 1771.53,-55.62 1761.14,-53.56 1762.13,-60.49"/>
+<text text-anchor="middle" x="1707.9" y="-79.7" font-family="Times,serif" font-size="14.00">1M1C R-&gt;L (6)</text>
+</g>
+<!-- S_211 -->
+<g id="node18" class="node">
+<title>S_211</title>
+<ellipse fill="none" stroke="black" cx="2064.54" cy="-114.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="2064.54" y="-126.9" font-family="Times,serif" font-size="14.00">(2,1,1)</text>
+<text text-anchor="middle" x="2064.54" y="-110.1" font-family="Times,serif" font-size="14.00">L:2M,1C | R:1M,2C</text>
+<text text-anchor="middle" x="2064.54" y="-93.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_110&#45;&gt;S_211 -->
+<g id="edge23" class="edge">
+<title>S_110-&gt;S_211</title>
+<path fill="none" stroke="black" d="M1645.52,-112.65C1734.29,-113 1868.85,-113.53 1961.19,-113.89"/>
+<polygon fill="black" stroke="black" points="1960.99,-117.39 1971,-113.93 1961.01,-110.39 1960.99,-117.39"/>
+<text text-anchor="middle" x="1707.9" y="-117.24" font-family="Times,serif" font-size="14.00">1M R-&gt;L</text>
+</g>
+<!-- S_020 -->
+<g id="node7" class="node">
+<title>S_020</title>
+<ellipse fill="none" stroke="black" cx="2266.45" cy="-45.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="2266.45" y="-57.9" font-family="Times,serif" font-size="14.00">(0,2,0)</text>
+<text text-anchor="middle" x="2266.45" y="-41.1" font-family="Times,serif" font-size="14.00">L:0M,2C | R:3M,1C</text>
+<text text-anchor="middle" x="2266.45" y="-24.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_221&#45;&gt;S_020 -->
+<g id="edge7" class="edge">
+<title>S_221-&gt;S_020</title>
+<path fill="none" stroke="black" d="M1955.06,-45.3C2016.89,-45.3 2098.63,-45.3 2162.71,-45.3"/>
+<polygon fill="black" stroke="black" points="2162.54,-48.8 2172.54,-45.3 2162.54,-41.8 2162.54,-48.8"/>
+<text text-anchor="middle" x="2064.54" y="-49.5" font-family="Times,serif" font-size="14.00">2M L-&gt;R (7)</text>
+</g>
+<!-- S_031 -->
+<g id="node8" class="node">
+<title>S_031</title>
+<ellipse fill="none" stroke="black" cx="2556.47" cy="-45.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="2556.47" y="-57.9" font-family="Times,serif" font-size="14.00">(0,3,1)</text>
+<text text-anchor="middle" x="2556.47" y="-41.1" font-family="Times,serif" font-size="14.00">L:0M,3C | R:3M,0C</text>
+<text text-anchor="middle" x="2556.47" y="-24.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_020&#45;&gt;S_031 -->
+<g id="edge8" class="edge">
+<title>S_020-&gt;S_031</title>
+<path fill="none" stroke="black" d="M2358.58,-45.3C2388.67,-45.3 2422.34,-45.3 2453.2,-45.3"/>
+<polygon fill="black" stroke="black" points="2452.92,-48.8 2462.92,-45.3 2452.92,-41.8 2452.92,-48.8"/>
+<text text-anchor="middle" x="2411.46" y="-49.5" font-family="Times,serif" font-size="14.00">1C R-&gt;L (8)</text>
+</g>
+<!-- S_010 -->
+<g id="node9" class="node">
+<title>S_010</title>
+<ellipse fill="none" stroke="black" cx="2846.49" cy="-80.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="2846.49" y="-92.9" font-family="Times,serif" font-size="14.00">(0,1,0)</text>
+<text text-anchor="middle" x="2846.49" y="-76.1" font-family="Times,serif" font-size="14.00">L:0M,1C | R:3M,2C</text>
+<text text-anchor="middle" x="2846.49" y="-59.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_031&#45;&gt;S_010 -->
+<g id="edge9" class="edge">
+<title>S_031-&gt;S_010</title>
+<path fill="none" stroke="black" d="M2645.45,-55.99C2677.27,-59.85 2713.4,-64.24 2746.13,-68.22"/>
+<polygon fill="black" stroke="black" points="2745.7,-71.69 2756.05,-69.43 2746.54,-64.75 2745.7,-71.69"/>
+<text text-anchor="middle" x="2701.48" y="-71.16" font-family="Times,serif" font-size="14.00">2C L-&gt;R (9)</text>
+</g>
+<!-- S_021 -->
+<g id="node12" class="node">
+<title>S_021</title>
+<ellipse fill="none" stroke="black" cx="3143.51" cy="-80.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="3143.51" y="-92.9" font-family="Times,serif" font-size="14.00">(0,2,1)</text>
+<text text-anchor="middle" x="3143.51" y="-76.1" font-family="Times,serif" font-size="14.00">L:0M,2C | R:3M,1C</text>
+<text text-anchor="middle" x="3143.51" y="-59.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_010&#45;&gt;S_021 -->
+<g id="edge10" class="edge">
+<title>S_010-&gt;S_021</title>
+<path fill="none" stroke="black" d="M2938.81,-80.3C2970.75,-80.3 3006.83,-80.3 3039.64,-80.3"/>
+<polygon fill="black" stroke="black" points="3039.59,-83.8 3049.59,-80.3 3039.59,-76.8 3039.59,-83.8"/>
+<text text-anchor="middle" x="2995" y="-84.5" font-family="Times,serif" font-size="14.00">1C R-&gt;L (10)</text>
+</g>
+<!-- S_000 -->
+<g id="node10" class="node">
+<title>S_000</title>
+<ellipse fill="none" stroke="red" cx="3444.53" cy="-80.3" rx="91.95" ry="41.3"/>
+<ellipse fill="none" stroke="red" cx="3444.53" cy="-80.3" rx="95.95" ry="45.3"/>
+<text text-anchor="middle" x="3444.53" y="-92.9" font-family="Times,serif" font-size="14.00">(0,0,0)</text>
+<text text-anchor="middle" x="3444.53" y="-76.1" font-family="Times,serif" font-size="14.00">L:0M,0C | R:3M,3C</text>
+<text text-anchor="middle" x="3444.53" y="-59.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_311&#45;&gt;S_110 -->
+<g id="edge5" class="edge">
+<title>S_311-&gt;S_110</title>
+<path fill="none" stroke="black" d="M1352.35,-112.3C1383.17,-112.3 1417.77,-112.3 1449.41,-112.3"/>
+<polygon fill="black" stroke="black" points="1449.41,-115.8 1459.41,-112.3 1449.41,-108.8 1449.41,-115.8"/>
+<text text-anchor="middle" x="1406.6" y="-116.5" font-family="Times,serif" font-size="14.00">2M L-&gt;R (5)</text>
+</g>
+<!-- S_021&#45;&gt;S_000 -->
+<g id="edge11" class="edge">
+<title>S_021-&gt;S_000</title>
+<path fill="none" stroke="black" d="M3235.85,-80.3C3267.79,-80.3 3303.93,-80.3 3337,-80.3"/>
+<polygon fill="black" stroke="black" points="3336.57,-83.8 3346.57,-80.3 3336.57,-76.8 3336.57,-83.8"/>
+<text text-anchor="middle" x="3292.02" y="-84.5" font-family="Times,serif" font-size="14.00">2C L-&gt;R (11)</text>
+</g>
+<!-- S_220&#45;&gt;S_331 -->
+<g id="edge16" class="edge">
+<title>S_220-&gt;S_331</title>
+<path fill="none" stroke="black" d="M308.37,-145.67C298.86,-143.95 289.26,-142.49 280.02,-141.5 254.97,-138.79 227.88,-138.03 202.42,-138.27"/>
+<polygon fill="black" stroke="black" points="202.69,-134.76 192.74,-138.41 202.79,-141.76 202.69,-134.76"/>
+<text text-anchor="middle" x="244.96" y="-145.7" font-family="Times,serif" font-size="14.00">1M1C R-&gt;L</text>
+</g>
+<!-- S_220&#45;&gt;S_321 -->
+<g id="edge14" class="edge">
+<title>S_220-&gt;S_321</title>
+<path fill="none" stroke="black" d="M469.3,-186.51C506.6,-196.61 551.39,-208.74 589.98,-219.19"/>
+<polygon fill="black" stroke="black" points="588.66,-222.46 599.23,-221.69 590.49,-215.7 588.66,-222.46"/>
+<text text-anchor="middle" x="534.98" y="-217.78" font-family="Times,serif" font-size="14.00">1M R-&gt;L</text>
+</g>
+<!-- S_231 -->
+<g id="node15" class="node">
+<title>S_231</title>
+<ellipse fill="none" stroke="black" cx="679.99" cy="-133.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="679.99" y="-145.9" font-family="Times,serif" font-size="14.00">(2,3,1)</text>
+<text text-anchor="middle" x="679.99" y="-129.1" font-family="Times,serif" font-size="14.00">L:2M,3C | R:1M,0C</text>
+<text text-anchor="middle" x="679.99" y="-112.3" font-family="Times,serif" font-size="14.00">Boat@L</text>
+</g>
+<!-- S_220&#45;&gt;S_231 -->
+<g id="edge15" class="edge">
+<title>S_220-&gt;S_231</title>
+<path fill="none" stroke="black" d="M461.08,-138.66C473.84,-134.86 487.15,-131.54 499.93,-129.5 525.2,-125.45 552.74,-124.4 578.47,-124.83"/>
+<polygon fill="black" stroke="black" points="578.16,-128.33 588.24,-125.08 578.34,-121.33 578.16,-128.33"/>
+<text text-anchor="middle" x="534.98" y="-133.7" font-family="Times,serif" font-size="14.00">1C R-&gt;L</text>
+</g>
+<!-- S_320&#45;&gt;S_331 -->
+<g id="edge17" class="edge">
+<title>S_320-&gt;S_331</title>
+<path fill="none" stroke="black" d="M298.13,-60.11C269.37,-61.11 237.81,-64.69 209.91,-73.5 191.37,-79.35 172.83,-88.98 156.29,-99.29"/>
+<polygon fill="black" stroke="black" points="154.58,-96.23 148.07,-104.59 158.37,-102.11 154.58,-96.23"/>
+<text text-anchor="middle" x="244.96" y="-77.7" font-family="Times,serif" font-size="14.00">1C R-&gt;L</text>
+</g>
+<!-- S_231&#45;&gt;S_220 -->
+<g id="edge18" class="edge">
+<title>S_231-&gt;S_220</title>
+<path fill="none" stroke="black" d="M590.7,-143.93C583.71,-144.74 576.76,-145.54 570.04,-146.3 544.47,-149.18 516.82,-152.17 491.09,-154.91"/>
+<polygon fill="black" stroke="black" points="490.88,-151.41 481.31,-155.94 491.62,-158.37 490.88,-151.41"/>
+<text text-anchor="middle" x="534.98" y="-158.03" font-family="Times,serif" font-size="14.00">1C L-&gt;R</text>
+</g>
+<!-- S_210 -->
+<g id="node16" class="node">
+<title>S_210</title>
+<ellipse fill="none" stroke="black" cx="970.01" cy="-41.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="970.01" y="-53.9" font-family="Times,serif" font-size="14.00">(2,1,0)</text>
+<text text-anchor="middle" x="970.01" y="-37.1" font-family="Times,serif" font-size="14.00">L:2M,1C | R:1M,2C</text>
+<text text-anchor="middle" x="970.01" y="-20.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_231&#45;&gt;S_210 -->
+<g id="edge19" class="edge">
+<title>S_231-&gt;S_210</title>
+<path fill="none" stroke="black" d="M755.54,-109.48C794.71,-96.97 842.89,-81.58 883.57,-68.59"/>
+<polygon fill="black" stroke="black" points="884.38,-72 892.84,-65.63 882.25,-65.34 884.38,-72"/>
+<text text-anchor="middle" x="825" y="-102.44" font-family="Times,serif" font-size="14.00">2C L-&gt;R</text>
+</g>
+<!-- S_120 -->
+<g id="node17" class="node">
+<title>S_120</title>
+<ellipse fill="none" stroke="black" cx="970.01" cy="-142.3" rx="91.95" ry="41.3"/>
+<text text-anchor="middle" x="970.01" y="-154.9" font-family="Times,serif" font-size="14.00">(1,2,0)</text>
+<text text-anchor="middle" x="970.01" y="-138.1" font-family="Times,serif" font-size="14.00">L:1M,2C | R:2M,1C</text>
+<text text-anchor="middle" x="970.01" y="-121.3" font-family="Times,serif" font-size="14.00">Boat@R</text>
+</g>
+<!-- S_231&#45;&gt;S_120 -->
+<g id="edge20" class="edge">
+<title>S_231-&gt;S_120</title>
+<path fill="none" stroke="black" d="M772.12,-136.14C802.21,-137.08 835.88,-138.13 866.75,-139.1"/>
+<polygon fill="black" stroke="black" points="866.36,-142.59 876.47,-139.4 866.58,-135.59 866.36,-142.59"/>
+<text text-anchor="middle" x="825" y="-143.07" font-family="Times,serif" font-size="14.00">1M1C L-&gt;R</text>
+</g>
+<!-- S_210&#45;&gt;S_221 -->
+<g id="edge21" class="edge">
+<title>S_210-&gt;S_221</title>
+<path fill="none" stroke="black" d="M1062.14,-41.7C1229.26,-42.45 1583.69,-44.05 1759.01,-44.83"/>
+<polygon fill="black" stroke="black" points="1758.77,-48.33 1768.79,-44.88 1758.8,-41.33 1758.77,-48.33"/>
+<text text-anchor="middle" x="1406.6" y="-47.59" font-family="Times,serif" font-size="14.00">1C R-&gt;L</text>
+</g>
+<!-- S_210&#45;&gt;S_311 -->
+<g id="edge22" class="edge">
+<title>S_210-&gt;S_311</title>
+<path fill="none" stroke="black" d="M1051.24,-61.07C1087.45,-70 1130.4,-80.59 1167.82,-89.81"/>
+<polygon fill="black" stroke="black" points="1166.72,-93.14 1177.26,-92.14 1168.39,-86.35 1166.72,-93.14"/>
+<text text-anchor="middle" x="1115.02" y="-89.44" font-family="Times,serif" font-size="14.00">1M R-&gt;L</text>
+</g>
+<!-- S_211&#45;&gt;S_010 -->
+<g id="edge24" class="edge">
+<title>S_211-&gt;S_010</title>
+<path fill="none" stroke="black" d="M2156.71,-112.55C2271.48,-110.06 2474.66,-104.74 2648.42,-95.3 2679.7,-93.6 2713.73,-91.2 2744.57,-88.82"/>
+<polygon fill="black" stroke="black" points="2744.57,-92.33 2754.27,-88.07 2744.03,-85.35 2744.57,-92.33"/>
+<text text-anchor="middle" x="2411.46" y="-110.75" font-family="Times,serif" font-size="14.00">2M L-&gt;R</text>
+</g>
+</g>
+</svg>
